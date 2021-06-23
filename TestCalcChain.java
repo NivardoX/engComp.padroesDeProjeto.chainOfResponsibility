@@ -15,8 +15,14 @@ public class TestCalcChain {
 		
 						
 		Numbers request = new Numbers(4,2,"add");
-		
 		chainCalc1.calculate(request);
+
+    System.out.println("");
+
+    Numbers request2 = new Numbers(4,2,"sub");	
+		chainCalc1.calculate(request2);
+
+		
 		
 	}
 
